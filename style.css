@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #080b18;
+}
+
+/* .header {
+    display: flex;
+    justify-content: center;
+} */
+.film {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+#camera {
+    color: #eaeaea;
+    font-size: 40px;
+    margin-top: 20px;
+}
+header h1 {
+    color: #f0c21a;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+header p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    font-size: 20px;
+    margin-left: 48px;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    height: 48px;
+    width: 550px;
+    font-size: 18px;
+    margin: 20px auto 0;
+    padding: 0 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: rgba(11,16,33,0.55);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid #f0c21a;
+    box-shadow: 0 0 15px rgba(240,194,26,0.7);
+}
