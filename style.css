@@ -103,3 +103,25 @@ header p {
     transform: scale(1.03);
     transition: 1s ease;
 }
+
+@media (max-width: 768px) {
+    .movie-card {
+        width: 140px;
+    }
+    .movie-card img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    #movie-container {
+        justify-content: center;
+        gap: 10px;
+    }
+    .movie-card {
+        width: 45%;
+    }
+    .movie-card img {
+        height: 180px;
+    }
+}
