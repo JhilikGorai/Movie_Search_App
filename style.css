@@ -73,3 +73,33 @@ header p {
     box-shadow: 0 0 15px rgba(240,194,26,0.7);
     outline: none;
 }
+
+#movie-container {
+    display: flex;
+    flex-direction: row;
+}
+.movie-card {
+    margin-top: 30px;
+    color: white;
+    width: 380px;
+    /* height: 300px; */
+    flex-shrink: 0;
+}
+
+.movie-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.movie-card h3 {
+    font-size: 18px;
+}
+.movie-card p {
+    font-size: 23px;
+}
+.movie-card img:hover {
+    transform: scale(1.03);
+    transition: 1s ease;
+}
